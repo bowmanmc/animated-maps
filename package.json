@@ -1,0 +1,28 @@
+{
+  "name": "animated-maps",
+  "version": "1.0.0",
+  "description": "Animated Maps and Data Visualizations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bowmanmc/animated-maps.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bowmanmc/animated-maps/issues"
+  },
+  "homepage": "https://github.com/bowmanmc/animated-maps#readme",
+  "dependencies": {
+    "normalize.css": "^7.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "cssnano": "^3.10.0",
+    "node-sass": "^4.5.3",
+    "postcss-cli": "^4.0.0"
+  }
+}
