@@ -1,0 +1,23 @@
+// {
+//     "input": "src/styles/bundle.css",
+//     "output": "src/styles/bundle.min.css",
+//     "use": [
+//         "autoprefixer",
+//         "cssnano"
+//     ],
+//     "autoprefixer": {
+//         "browsers": "> 5%, Android 2.3"
+//     },
+//     "cssnano": {
+//         "safe": true,
+//         "sourcemap": false
+//     }
+// }
+module.exports = {
+    plugins: [
+        require('cssnano')({
+            preset: 'default'
+        }),
+        require('autoprefixer')
+    ]
+}

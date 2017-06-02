@@ -4,6 +4,8 @@
   "description": "Animated Maps and Data Visualizations",
   "main": "index.js",
   "scripts": {
+    "sass": "node-sass --source-map true --include-path src --include-path node_modules src/index.scss src/styles/bundle.css",
+    "postsass": "postcss -c postcss.config.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,7 +13,7 @@
     "url": "git+https://github.com/bowmanmc/animated-maps.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/bowmanmc/animated-maps/issues"
   },
