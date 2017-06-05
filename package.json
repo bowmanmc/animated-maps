@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "sass": "node-sass --source-map true --include-path src --include-path node_modules src/index.scss src/styles/bundle.css",
-    "postsass": "postcss -c postcss.config.json",
+    "postsass": "postcss src/styles/bundle.css -c postcss.config.js -o src/styles/bundle.min.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
